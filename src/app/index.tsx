@@ -1,11 +1,9 @@
-import { Button } from "@/components/ui/button";
+import { Counter } from "./Counter";
 
 const App = () => {
   return (
-    <div className="bg-gray-800 h-screen">
-      <h1 className="text-3xl text-white">Hello World !!</h1>
-
-      <Button>Test</Button>
+    <div className="bg-gray-800 h-screen p-5">
+      <Counter />
     </div>
   );
 };
